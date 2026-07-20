@@ -2,9 +2,11 @@ name: Refresh theme board
 
 on:
   schedule:
+    # 09:30 UTC = 19:30 AEST / 20:30 AEDT — evening APAC refresh after ASX & HKEX close
     - cron: '30 9 * * 1-5'
-    - cron: '15 21 * * 2-6'
-    - cron: '15 22 * * 2-6'
+    # Morning re-sync of US benchmarks & RS after US close (Mon-Fri UTC = same-day US sessions)
+    - cron: '15 21 * * 1-5'
+    - cron: '15 22 * * 1-5'
   workflow_dispatch: {}
 
 permissions:
