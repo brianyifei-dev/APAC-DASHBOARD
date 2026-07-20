@@ -147,7 +147,7 @@ def main():
                     close = solo["Close"].squeeze(); open_ = solo["Open"].squeeze()
             except Exception:
                 pass
-      if close.dropna().empty and y.startswith("ETPM"):
+        if close.dropna().empty and y.startswith("ETPM"):
             for alt in ("80019.AX", "80022.AX", "80023.AX", "80018.AX"):
                 try:
                     import yfinance as yf
@@ -156,8 +156,8 @@ def main():
                         close = solo["Close"].squeeze(); open_ = solo["Open"].squeeze()
                         break
                 except Exception:
-                    continue 
-      if close.dropna().empty:
+                    continue
+        if close.dropna().empty:
             sq = stooq_fallback(y)
             if sq is not None and not sq.empty:
                 close, open_ = sq["Close"], sq["Open"]
