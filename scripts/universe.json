@@ -491,7 +491,7 @@
   "exp": null,
   "yield": null,
   "ticker": "ETPMPT",
-  "yahoo": "ETPMPT.AX",
+  "yahoo": "80021.AX",
   "theme": "Physical Platinum (AUD)"
  },
  {
@@ -502,7 +502,7 @@
   "exp": null,
   "yield": null,
   "ticker": "ETPMPD",
-  "yahoo": "ETPMPD.AX",
+  "yahoo": "80020.AX",
   "theme": "Physical Palladium (AUD)"
  },
  {
