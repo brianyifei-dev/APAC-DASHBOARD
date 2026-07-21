@@ -193,7 +193,16 @@ def main():
         # keys: group, theme, ticker, long, short + metrics
 
     as_of = str(spy.index[-1].date())
-    OUT.write_text(json.dumps({"as_of": as_of,
+    # per-market last-session dates (representative tickers)
+    def last_date(sym):
+        try:
+            s = hist[sym]["Close"].dropna()
+            return str(s.index[-1].date()) if len(s) else None
+        except Exception:
+            return None
+    asx_asof = last_date("VAS.AX") or last_date("IOZ.AX")
+    hk_asof = last_date("2800.HK")
+    OUT.write_text(json.dumps({"as_of": as_of, "asx_asof": asx_asof, "hk_asof": hk_asof,
                                "generated_utc": dt.datetime.utcnow().isoformat(timespec="seconds"),
                                "rows": rows}, indent=1))
     missing = [r["ticker"] for r in rows if "price" not in r]
