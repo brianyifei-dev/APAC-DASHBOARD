@@ -89,7 +89,7 @@ tr:hover td{background:#161f2a}
 .cval{text-align:right;font-weight:600}
 .mai{display:inline-block;width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;vertical-align:middle}
 .mai.up{border-bottom:8px solid var(--up)}
-.mai.dn{border-top:8px solid var(--dn)}
+.mai.dn{border-top:8px solid transparent}
 td.mac{text-align:center;min-width:44px}
 tr.bands th{font-family:var(--sans);font-size:9px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--amber);text-align:center;padding:6px 4px 4px;border-bottom:none;cursor:default;background:transparent}
 tr.bands th.blank{border:none}
@@ -148,7 +148,7 @@ const pct1 = v => v==null ? '<span class="na">·</span>'
 
 const COLS = [
  ['ticker','Ticker'],['theme','Theme'],['price','Price'],['off52h','%52H'],
- ['pair','L/S · Cap · Exp'],['rs_sts','RS STS'],['rs_1m','1M RS'],['intraday','Intra'],['daily','Daily'],
+ ['pair','L/S · Cap · Exp'],['rs_sts','RS Rtg'],['rs_1m','1M RS'],['intraday','Intra'],['daily','Daily'],
  ['roll_w','Roll W'],['roll_m','Roll M'],['ytd','YTD'],['w1','1W'],['m1','1M'],['y1','1Y'],
  ['vs10','v10MA'],['vs21','v21MA'],['vs50','v50MA'],['g6_50','6>50'],['g21_50','21>50']
 ];
@@ -225,8 +225,9 @@ fetch('snapshot.json').then(r=>r.json()).then(d=>{
     if(sortKey && sortKey!=='ticker' && sortKey!=='theme' && sortKey!=='pair')
       rs.sort((a,b)=>((b[sortKey]??-1e9)-(a[sortKey]??-1e9))*dir);
     sec.querySelector('tbody').innerHTML = rs.map(r=>{
-      const sts = r.rs_sts==null?'<span class="na">·</span>'
-        :`<span class="sts ${r.rs_sts>=0.9?'hot':''}">${(r.rs_sts*100).toFixed(0)}</span>`;
+      const rating = r.rs_rating ?? (r.rs_sts!=null ? Math.round(r.rs_sts*98+1) : null);
+      const sts = rating==null?'<span class="na">·</span>'
+        :`<span class="sts ${rating>=90?'hot':''}">${rating}</span>`;
       const fmtCap = v => v==null?'':(v>=1e9?(v/1e9).toFixed(1)+'B':(v/1e6).toFixed(0)+'M');
       let pair;
       if(r.long||r.short){ pair=`<span class="pair">${r.long?'<b>'+r.long+'</b>':''}${r.long&&r.short?' / ':''}${r.short?'<s>'+r.short+'</s>':''}</span>`; }
