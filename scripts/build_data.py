@@ -70,43 +70,6 @@ def best_hk_counter(code_hk: str, hist, tickers_avail) -> str:
 
 
 
-def asx_eod_price(ticker_no_suffix: str) -> dict | None:
-    """Fetch today's EOD price from ASX daily prices CSV.
-    Returns dict with keys: close, open, prev_close or None if unavailable.
-    ASX file published ~18:30 AEST after each trading day.
-    """
-    import requests, zipfile, io, datetime as dt
-    # Try today and yesterday in case file not yet published
-    for delta in (0, 1, 2):
-        d = dt.date.today() - dt.timedelta(days=delta)
-        if d.weekday() >= 5:   # skip weekends
-            continue
-        url = f"https://asx.com.au/asx/research/DailyPrices.zip"
-        try:
-            r = requests.get(url, timeout=20,
-                             headers={"User-Agent": "Mozilla/5.0"})
-            if r.status_code != 200:
-                continue
-            z = zipfile.ZipFile(io.BytesIO(r.content))
-            # file inside zip is named like "ASXListedCompanies_YYYYMMDD.csv" or "20240123.csv"
-            fname = z.namelist()[0]
-            raw = z.read(fname).decode("utf-8", errors="ignore")
-            # Parse: skip header lines (start with non-ticker chars)
-            for line in raw.splitlines():
-                parts = line.strip().split(",")
-                if not parts or len(parts) < 5:
-                    continue
-                if parts[0].strip().upper() == ticker_no_suffix.upper():
-                    try:
-                        close = float(parts[4]) if parts[4] else None
-                        prev  = float(parts[5]) if len(parts) > 5 and parts[5] else None
-                        return {"close": close, "prev_close": prev,
-                                "open": close, "date": str(d)}
-                    except ValueError:
-                        continue
-        except Exception:
-            continue
-    return None
 
 
 def metrics_for(close: pd.Series, open_: pd.Series, spy: pd.Series) -> dict:
@@ -167,26 +130,7 @@ def main():
     for u in UNIVERSE:
         t = u["ticker"]
         y = SYM[t]
-        # ASX direct EOD for tickers where Yahoo data is known stale
-        if y.endswith(".AX") and t.startswith("ETPM"):
-            asx = asx_eod_price(t)
-            if asx and asx.get("close"):
-                try:
-                    # build minimal series for metrics
-                    import yfinance as yf
-                    hist_solo = yf.download(y, period="2y", interval="1d",
-                                            auto_adjust=True, progress=False)
-                    if not hist_solo.empty:
-                        close = hist_solo["Close"].squeeze()
-                        open_ = hist_solo["Open"].squeeze()
-                        # override latest close/open with ASX direct
-                        close.iloc[-1] = asx["close"]
-                        if asx.get("prev_close") and len(close) > 1:
-                            close.iloc[-2] = asx["prev_close"]
-                        open_.iloc[-1] = asx["open"]
-                        print(f"ASX direct: {t} close={asx['close']} date={asx['date']}")
-                except Exception:
-                    pass
+
         if y.endswith(".HK") and y.split(".")[0].startswith("9"):
             y2 = best_hk_counter(y, hist, TICKERS)
             if y2 != y:
