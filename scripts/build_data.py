@@ -222,6 +222,25 @@ def main():
     OUT.write_text(json.dumps({"as_of": as_of, "asx_asof": asx_asof, "hk_asof": hk_asof,
                                "generated_utc": dt.datetime.utcnow().isoformat(timespec="seconds"),
                                "rows": rows}, indent=1))
+
+    # ── STOOQ VALIDATION TEST (remove after confirming) ──────────────────────
+    print("\n=== STOOQ VALIDATION FOR ETPM TICKERS ===")
+    import requests, io
+    for _sym in ["ETPMAG.AU","ETPMPT.AU","ETPMPD.AU"]:
+        try:
+            _r = requests.get(f"https://stooq.com/q/d/l/?s={_sym.lower()}&i=d", timeout=15)
+            _df = pd.read_csv(io.StringIO(_r.text))
+            if "Close" not in _df.columns:
+                print(f"  {_sym}: no data — {_r.text[:60]}")
+                continue
+            _df = _df.sort_values("Date")
+            _last = _df.iloc[-1]; _prev = _df.iloc[-2] if len(_df)>1 else None
+            _chg = (_last["Close"]/_prev["Close"]-1)*100 if _prev is not None else None
+            print(f"  {_sym}: last={_last['Date']} close={_last['Close']:.2f} daily%={_chg:.2f}%")
+        except Exception as _e:
+            print(f"  {_sym}: FAILED — {_e}")
+    print("=== END STOOQ TEST ===\n")
+    # ─────────────────────────────────────────────────────────────────────────
     missing = [r["ticker"] for r in rows if "price" not in r]
     print(f"wrote {len(rows)} rows, as_of {as_of}; missing data: {missing or 'none'}")
     if len(missing) > len(rows) * 0.3:
