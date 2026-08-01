@@ -175,18 +175,28 @@ def main():
             if sq is not None and not sq.empty:
                 close, open_ = sq["Close"], sq["Open"]
         m = metrics_for(close, open_, spy)
-        # Live AUM + expense ratio for ETF sections (rows carrying an mcap field)
-        if "mcap" in u and u.get("group") != "Market Benchmarks":
+        # Live AUM + expense ratio for every ticker WITHOUT a leveraged L/S pair
+        if not (u.get("long") or u.get("short")):
             try:
                 import yfinance as yf
                 info = yf.Ticker(y).info or {}
                 ta = info.get("totalAssets")
                 if ta:
                     m["mcap"] = float(ta)
-                er = info.get("netExpenseRatio") or info.get("annualReportExpenseRatio") or info.get("expenseRatio")
+                er = (info.get("netExpenseRatio")
+                      or info.get("annualReportExpenseRatio")
+                      or info.get("expenseRatio"))
                 if er:
-                    # Yahoo returns some ratios as percent (0.40) and some as fraction (0.004); normalize to fraction
-                    m["exp"] = float(er)/100 if er > 0.5 else float(er)
+                    er = float(er)
+                    # Yahoo returns these fields in PERCENT units (0.09 == 0.09%), verified
+                    # against published iShares fact sheets. Convert to a fraction.
+                    frac = er / 100.0
+                    # Sanity band: real expense ratios span ~0.01% to ~5%. If dividing puts
+                    # the value outside that band, the source was already a fraction.
+                    if not (0.00005 <= frac <= 0.05):
+                                frac = er
+                    if 0.00005 <= frac <= 0.05:
+                                m["exp"] = round(frac, 6)
             except Exception:
                 pass  # keep static values from universe.json
         # Live TTM yield for income ETFs (universe entries carrying a 'yield' field)
