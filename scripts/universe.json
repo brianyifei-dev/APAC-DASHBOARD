@@ -1,1102 +1,1519 @@
 [
  {
+  "tab": "macro",
   "group": "Market Benchmarks",
-  "theme": "S&P 500",
   "ticker": "SPY",
   "yahoo": "SPY",
+  "theme": "S&P 500",
   "long": "SPXL",
-  "short": "SPXU",
-  "mcap": null,
-  "exp": null,
-  "yield": null
+  "short": "SPXU"
  },
  {
+  "tab": "macro",
   "group": "Market Benchmarks",
-  "theme": "Nasdaq 100",
   "ticker": "QQQ",
   "yahoo": "QQQ",
+  "theme": "Nasdaq 100",
   "long": "TQQQ",
-  "short": "SQQQ",
-  "mcap": null,
-  "exp": null,
-  "yield": null
+  "short": "SQQQ"
  },
  {
+  "tab": "macro",
   "group": "Market Benchmarks",
-  "theme": "Russel 2000",
   "ticker": "IWM",
   "yahoo": "IWM",
+  "theme": "Russel 2000",
   "long": "TNA",
-  "short": "TZA",
-  "mcap": null,
-  "exp": null,
-  "yield": null
+  "short": "TZA"
  },
  {
+  "tab": "macro",
   "group": "Market Benchmarks",
-  "theme": "Mag 7",
   "ticker": "MAGS",
   "yahoo": "MAGS",
-  "long": "FNGG FNGB",
-  "short": "FNGD",
-  "mcap": null,
-  "exp": null,
-  "yield": null
+  "theme": "Mag 7",
+  "long": "MAGX",
+  "short": "MAGQ"
  },
  {
+  "tab": "macro",
   "group": "Market Benchmarks",
-  "theme": "EW S&P 500",
   "ticker": "RSP",
   "yahoo": "RSP",
+  "theme": "EW S&P 500",
   "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
+  "short": ""
  },
  {
+  "tab": "macro",
   "group": "Market Benchmarks",
-  "theme": "EW NQ 100",
   "ticker": "QQEW",
   "yahoo": "QQEW",
+  "theme": "EW NQ 100",
   "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
+  "short": ""
  },
  {
+  "tab": "macro",
   "group": "Market Benchmarks",
-  "theme": "USD Dollar Index",
   "ticker": "UUP",
   "yahoo": "UUP",
+  "theme": "USD Dollar Index",
   "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
+  "short": ""
  },
  {
+  "tab": "macro",
   "group": "Market Benchmarks",
-  "theme": "VIX Short Term Future",
   "ticker": "UVXY",
   "yahoo": "UVXY",
+  "theme": "VIX Short Term Future",
   "long": "UVIX",
-  "short": "SVXY",
-  "mcap": null,
-  "exp": null,
-  "yield": null
+  "short": "SVXY"
  },
  {
+  "tab": "macro",
   "group": "Market Benchmarks",
-  "theme": "AUD Dollar Trust",
   "ticker": "FXA",
   "yahoo": "FXA",
+  "theme": "AUD Dollar Trust",
   "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
+  "short": ""
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "ASX 20",
   "ticker": "ILC",
   "yahoo": "ILC.AX",
+  "theme": "ASX 20",
   "long": "",
   "short": "",
   "mcap": 697504475.7,
-  "exp": 0.0024,
-  "yield": null
+  "exp": 0.0024
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "ASX 50",
   "ticker": "SFY",
   "yahoo": "SFY.AX",
+  "theme": "ASX 50",
   "long": "",
   "short": "",
   "mcap": 786509907.79,
-  "exp": 0.002,
-  "yield": null
+  "exp": 0.002
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "ASX 200",
   "ticker": "A200",
   "yahoo": "A200.AX",
+  "theme": "ASX 200",
   "long": "",
   "short": "",
   "mcap": 7454553689,
-  "exp": 0.0004,
-  "yield": null
+  "exp": 0.0004
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "ASX 200",
   "ticker": "IOZ",
   "yahoo": "IOZ.AX",
+  "theme": "ASX 200",
   "long": "",
   "short": "",
   "mcap": 7177539530,
-  "exp": 0.0005,
-  "yield": null
+  "exp": 0.0005
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "Equal Weight ASX 200",
   "ticker": "MVW",
   "yahoo": "MVW.AX",
+  "theme": "Equal Weight ASX 200",
   "long": "",
   "short": "",
   "mcap": 2851324920.78,
-  "exp": 0.0035,
-  "yield": null
+  "exp": 0.0035
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "ASX 200 Healthcare, Tech & Comsumer",
   "ticker": "OZXX",
   "yahoo": "OZXX.AX",
+  "theme": "ASX 200 Healthcare, Tech & Comsumer",
   "long": "",
   "short": "",
   "mcap": 8490878.4,
-  "exp": 0.0025,
-  "yield": null
+  "exp": 0.0025
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "ASX200 Finance EX A-REIT",
   "ticker": "OZF",
   "yahoo": "OZF.AX",
+  "theme": "ASX200 Finance EX A-REIT",
   "long": "",
   "short": "",
   "mcap": 38995026.63,
-  "exp": 0.0034,
-  "yield": null
+  "exp": 0.0034
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "ASX 200 List Prop",
   "ticker": "SLF",
   "yahoo": "SLF.AX",
+  "theme": "ASX 200 List Prop",
   "long": "",
   "short": "",
   "mcap": 560868517.29,
-  "exp": 0.0016,
-  "yield": null
+  "exp": 0.0016
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "ASX 200 Resources",
   "ticker": "OZR",
   "yahoo": "OZR.AX",
+  "theme": "ASX 200 Resources",
   "long": "",
   "short": "",
   "mcap": 164833578.4,
-  "exp": 0.0034,
-  "yield": null
+  "exp": 0.0034
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "ASX Aus Tch",
   "ticker": "ATEC",
   "yahoo": "ATEC.AX",
+  "theme": "ASX Aus Tch",
   "long": "",
   "short": "",
   "mcap": 372979678,
-  "exp": 0.0048,
-  "yield": null
+  "exp": 0.0048
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "ASX Banks",
   "ticker": "MVB",
   "yahoo": "MVB.AX",
+  "theme": "ASX Banks",
   "long": "",
   "short": "",
   "mcap": 259539581.39,
-  "exp": 0.0028,
-  "yield": null
+  "exp": 0.0028
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "ASX 300",
   "ticker": "VAS",
   "yahoo": "VAS.AX",
+  "theme": "ASX 300",
   "long": "",
   "short": "",
   "mcap": 20184100000,
-  "exp": 0.0007,
-  "yield": null
+  "exp": 0.0007
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "Small Companies",
   "ticker": "SMLL",
   "yahoo": "SMLL.AX",
+  "theme": "Small Companies",
   "long": "",
   "short": "",
   "mcap": 291035363,
-  "exp": 0.0039,
-  "yield": null
+  "exp": 0.0039
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "Australian Property",
   "ticker": "MVA",
   "yahoo": "MVA.AX",
+  "theme": "Australian Property",
   "long": "",
   "short": "",
   "mcap": 609837893.95,
-  "exp": 0.0035,
-  "yield": null
+  "exp": 0.0035
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "Aus Sustainability",
   "ticker": "FAIR",
   "yahoo": "FAIR.AX",
+  "theme": "Aus Sustainability",
   "long": "",
   "short": "",
   "mcap": 1249221763,
-  "exp": 0.0049,
-  "yield": null
+  "exp": 0.0049
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "Aus Se Hi DivYld",
   "ticker": "SYI",
   "yahoo": "SYI.AX",
+  "theme": "Aus Se Hi DivYld",
   "long": "",
   "short": "",
   "mcap": 461554494.17,
-  "exp": 0.002,
-  "yield": null
+  "exp": 0.002
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "Vanguard MSCI Aus LCos Idx",
   "ticker": "VLC",
   "yahoo": "VLC.AX",
+  "theme": "Vanguard MSCI Aus LCos Idx",
   "long": "",
   "short": "",
   "mcap": 281200000,
-  "exp": 0.002,
-  "yield": null
+  "exp": 0.002
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "iShares Core MSCIAusESG",
   "ticker": "IESG",
   "yahoo": "IESG.AX",
+  "theme": "iShares Core MSCIAusESG",
   "long": "",
   "short": "",
   "mcap": 355845264.9,
-  "exp": 0.0009,
-  "yield": null
+  "exp": 0.0009
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "VanEck MSCI Aus Sustain Eq",
   "ticker": "GRNV",
   "yahoo": "GRNV.AX",
+  "theme": "VanEck MSCI Aus Sustain Eq",
   "long": "",
   "short": "",
   "mcap": 198558236.38,
-  "exp": 0.0035,
-  "yield": null
+  "exp": 0.0035
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "AUS Gov 7-12 AUD Bonds",
   "ticker": "AGVT",
   "yahoo": "AGVT.AX",
+  "theme": "AUS Gov 7-12 AUD Bonds",
   "long": "",
   "short": "",
   "mcap": 1072772071,
-  "exp": 0.0022,
-  "yield": null
+  "exp": 0.0022
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "Aus Gov Bd",
   "ticker": "GOVT",
   "yahoo": "GOVT.AX",
+  "theme": "Aus Gov Bd",
   "long": "",
   "short": "",
   "mcap": 59498327.47,
-  "exp": 0.001,
-  "yield": null
+  "exp": 0.001
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "Aus Govt Inflation (5 - 15 Years)",
   "ticker": "ILB",
   "yahoo": "ILB.AX",
+  "theme": "Aus Govt Inflation (5 - 15 Years)",
   "long": "",
   "short": "",
   "mcap": 932852210.7,
-  "exp": 0.0018,
-  "yield": null
+  "exp": 0.0018
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "Aus Core Cps Bd (1 - 10 Years)",
   "ticker": "IAF",
   "yahoo": "IAF.AX",
+  "theme": "Aus Core Cps Bd (1 - 10 Years)",
   "long": "",
   "short": "",
   "mcap": 3049860152,
-  "exp": 0.001,
-  "yield": null
+  "exp": 0.001
  },
  {
+  "tab": "macro",
   "group": "AUS Category ETFs",
-  "theme": "Aus Treasury (1 - 5 Years)",
   "ticker": "IGB",
   "yahoo": "IGB.AX",
+  "theme": "Aus Treasury (1 - 5 Years)",
   "long": "",
   "short": "",
   "mcap": 431828538.1,
-  "exp": 0.0018,
-  "yield": null
+  "exp": 0.0018
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS US Index ETFs",
-  "theme": "S&P 100",
   "ticker": "IOO",
   "yahoo": "IOO.AX",
+  "theme": "S&P 100",
   "long": "",
   "short": "",
   "mcap": 4404322682,
-  "exp": 0.004,
-  "yield": null
+  "exp": 0.004
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS US Index ETFs",
-  "theme": "S&P 500",
   "ticker": "IVV",
   "yahoo": "IVV.AX",
+  "theme": "S&P 500",
   "long": "",
   "short": "",
   "mcap": 10777866730,
-  "exp": 0.0004,
-  "yield": null
+  "exp": 0.0004
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS US Index ETFs",
-  "theme": "S&P Mid-Cap",
   "ticker": "IJH",
   "yahoo": "IJH.AX",
+  "theme": "S&P Mid-Cap",
   "long": "",
   "short": "",
   "mcap": 443529939,
-  "exp": 0.0008,
-  "yield": null
+  "exp": 0.0008
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS US Index ETFs",
-  "theme": "S&P Small-Cap",
   "ticker": "IJR",
   "yahoo": "IJR.AX",
+  "theme": "S&P Small-Cap",
   "long": "",
   "short": "",
   "mcap": 703975431,
-  "exp": 0.0008,
-  "yield": null
+  "exp": 0.0008
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS US Index ETFs",
-  "theme": "S&P Hlthcare",
   "ticker": "IXJ",
   "yahoo": "IXJ.AX",
+  "theme": "S&P Hlthcare",
   "long": "",
   "short": "",
   "mcap": 1297922879,
-  "exp": 0.0041,
-  "yield": null
+  "exp": 0.0041
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS US Index ETFs",
-  "theme": "S&P Cons Stap",
   "ticker": "IXI",
   "yahoo": "IXI.AX",
+  "theme": "S&P Cons Stap",
   "long": "",
   "short": "",
   "mcap": 146073746.8,
-  "exp": 0.0041,
-  "yield": null
+  "exp": 0.0041
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS US Index ETFs",
-  "theme": "NASDAQ 100",
   "ticker": "NDQ",
   "yahoo": "NDQ.AX",
+  "theme": "NASDAQ 100",
   "long": "",
   "short": "",
   "mcap": 6293985038,
-  "exp": 0.0048,
-  "yield": null
+  "exp": 0.0048
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS US Index ETFs",
-  "theme": "Russell 2000",
   "ticker": "RSSL",
   "yahoo": "RSSL.AX",
+  "theme": "Russell 2000",
   "long": "",
   "short": "",
   "mcap": 4055457.48,
-  "exp": 0.0018,
-  "yield": null
+  "exp": 0.0018
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Theme ETFs",
-  "theme": "Physical Gold (AUD)",
   "ticker": "GOLD",
   "yahoo": "GOLD.AX",
+  "theme": "Physical Gold (AUD)",
   "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
+  "short": ""
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Theme ETFs",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null,
   "ticker": "ETPMAG",
   "yahoo": "ETPMAG.AX",
-  "theme": "Physical Silver (AUD)"
+  "theme": "Physical Silver (AUD)",
+  "long": "",
+  "short": ""
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Theme ETFs",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null,
   "ticker": "ETPMPM",
   "yahoo": "ETPMPM.AX",
-  "theme": "Physical Precious Metals Basket"
+  "theme": "Physical Precious Metals Basket",
+  "long": "",
+  "short": ""
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Theme ETFs",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null,
   "ticker": "ETPMPT",
-  "yahoo": "80021.AX",
-  "theme": "Physical Platinum (AUD)"
- },
- {
-  "group": "HOSTPLUS Theme ETFs",
+  "yahoo": "ETPMPT.AX",
+  "theme": "Physical Platinum (AUD)",
   "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null,
-  "ticker": "ETPMPD",
-  "yahoo": "80020.AX",
-  "theme": "Physical Palladium (AUD)"
+  "short": ""
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Theme ETFs",
-  "theme": "Gold Miners",
+  "ticker": "ETPMPD",
+  "yahoo": "ETPMPD.AX",
+  "theme": "Physical Palladium (AUD)",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "macro",
+  "group": "HOSTPLUS Theme ETFs",
   "ticker": "GDX",
   "yahoo": "GDX.AX",
+  "theme": "Gold Miners",
   "long": "",
   "short": "",
   "mcap": 780755796.46,
-  "exp": 0.0053,
-  "yield": null
+  "exp": 0.0053
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Theme ETFs",
-  "theme": "FTSE AsiaxJpn Sh Idx",
   "ticker": "VAE",
   "yahoo": "VAE.AX",
+  "theme": "FTSE AsiaxJpn Sh Idx",
   "long": "",
   "short": "",
   "mcap": 593000000,
-  "exp": 0.004,
-  "yield": null
+  "exp": 0.004
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Theme ETFs",
-  "theme": "Asia Tech Tigers",
   "ticker": "ASIA",
   "yahoo": "ASIA.AX",
+  "theme": "Asia Tech Tigers",
   "long": "",
   "short": "",
   "mcap": 643605250,
-  "exp": 0.0067,
-  "yield": null
+  "exp": 0.0067
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Theme ETFs",
-  "theme": "China New Economy",
   "ticker": "CNEW",
   "yahoo": "CNEW.AX",
+  "theme": "China New Economy",
   "long": "",
   "short": "",
   "mcap": 93649185.68,
-  "exp": 0.0095,
-  "yield": null
+  "exp": 0.0095
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Theme ETFs",
-  "theme": "Global Tech",
   "ticker": "TECH",
   "yahoo": "TECH.AX",
+  "theme": "Global Tech",
   "long": "",
   "short": "",
   "mcap": 358930345.88,
-  "exp": 0.0045,
-  "yield": null
+  "exp": 0.0045
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Theme ETFs",
-  "theme": "Cybersecurity",
   "ticker": "HACK",
   "yahoo": "HACK.AX",
+  "theme": "Cybersecurity",
   "long": "",
   "short": "",
   "mcap": 1290793498,
-  "exp": 0.0067,
-  "yield": null
+  "exp": 0.0067
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Theme ETFs",
-  "theme": "ROBO Tech",
   "ticker": "ROBO",
   "yahoo": "ROBO.AX",
+  "theme": "ROBO Tech",
   "long": "",
   "short": "",
   "mcap": 217100612.11,
-  "exp": 0.0069,
-  "yield": null
+  "exp": 0.0069
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Theme ETFs",
-  "theme": "Battery Tech&Lith",
   "ticker": "ACDC",
   "yahoo": "ACDC.AX",
+  "theme": "Battery Tech&Lith",
   "long": "",
   "short": "",
   "mcap": 452828720.55,
-  "exp": 0.0069,
-  "yield": null
+  "exp": 0.0069
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Theme ETFs",
-  "theme": "Clean Energy",
   "ticker": "CLNE",
   "yahoo": "CLNE.AX",
+  "theme": "Clean Energy",
   "long": "",
   "short": "",
   "mcap": 57993717.46,
-  "exp": 0.0065,
-  "yield": null
+  "exp": 0.0065
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Theme ETFs",
-  "theme": "Climate Chg",
   "ticker": "ERTH",
   "yahoo": "ERTH.AX",
+  "theme": "Climate Chg",
   "long": "",
   "short": "",
   "mcap": 86581678,
-  "exp": 0.0065,
-  "yield": null
+  "exp": 0.0065
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Theme ETFs",
-  "theme": "Sustainability",
   "ticker": "ETHI",
   "yahoo": "ETHI.AX",
+  "theme": "Sustainability",
   "long": "",
   "short": "",
   "mcap": 3548347034,
-  "exp": 0.0059,
-  "yield": null
+  "exp": 0.0059
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Theme ETFs",
-  "theme": "Global Infra",
   "ticker": "GLIN",
   "yahoo": "GLIN.AX",
+  "theme": "Global Infra",
   "long": "",
   "short": "",
   "mcap": 1129220804,
-  "exp": 0.0015,
-  "yield": null
+  "exp": 0.0015
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Theme ETFs",
-  "theme": "USA Rental",
   "ticker": "GLPR",
   "yahoo": "GLPR.AX",
+  "theme": "USA Rental",
   "long": "",
   "short": "",
   "mcap": 417486065.7,
-  "exp": 0.0015,
-  "yield": null
+  "exp": 0.0015
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Theme ETFs",
-  "theme": "Utility, Industry & Energy",
   "ticker": "IFRA",
   "yahoo": "IFRA.AX",
+  "theme": "Utility, Industry & Energy",
   "long": "",
   "short": "",
   "mcap": 1405304145.09,
-  "exp": 0.002,
-  "yield": null
+  "exp": 0.002
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Global ETFs",
-  "theme": "Europe, Australia, Asia, the Far East",
   "ticker": "IVE",
   "yahoo": "IVE.AX",
+  "theme": "Europe, Australia, Asia, the Far East",
   "long": "",
   "short": "",
   "mcap": 584834846.2,
-  "exp": 0.0032,
-  "yield": null
+  "exp": 0.0032
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Global ETFs",
-  "theme": "US Large/Mid Index (AUD Hedged)",
   "ticker": "HGBL",
   "yahoo": "HGBL.AX",
+  "theme": "US Large/Mid Index (AUD Hedged)",
   "long": "",
   "short": "",
   "mcap": 1393778259,
-  "exp": 0.0011,
-  "yield": null
+  "exp": 0.0011
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Global ETFs",
-  "theme": "BGBL",
   "ticker": "BGBL",
   "yahoo": "BGBL.AX",
+  "theme": "BGBL",
   "long": "",
   "short": "",
   "mcap": 2097228755,
-  "exp": 0.0008,
-  "yield": null
+  "exp": 0.0008
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Global ETFs",
-  "theme": "QHAL",
   "ticker": "QHAL",
   "yahoo": "QHAL.AX",
+  "theme": "QHAL",
   "long": "",
   "short": "",
   "mcap": 1927430308.46,
-  "exp": 0.0043,
-  "yield": null
+  "exp": 0.0043
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Global ETFs",
-  "theme": "US Quality (Unhedged)",
   "ticker": "QUAL",
   "yahoo": "QUAL.AX",
+  "theme": "US Quality (Unhedged)",
   "long": "",
   "short": "",
   "mcap": 7181922024.54,
-  "exp": 0.004,
-  "yield": null
+  "exp": 0.004
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Global ETFs",
-  "theme": "ESGI",
   "ticker": "ESGI",
   "yahoo": "ESGI.AX",
+  "theme": "ESGI",
   "long": "",
   "short": "",
   "mcap": 214919250.27,
-  "exp": 0.0055,
-  "yield": null
+  "exp": 0.0055
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Global ETFs",
-  "theme": "MSIC Developed Large & Mid Cap",
   "ticker": "QMIX",
   "yahoo": "QMIX.AX",
+  "theme": "MSIC Developed Large & Mid Cap",
   "long": "",
   "short": "",
   "mcap": 349534813.72,
-  "exp": 0.0018,
-  "yield": null
+  "exp": 0.0018
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Global ETFs",
-  "theme": "Developed MSCI  Large/Mid (Unhedged)",
   "ticker": "VLUE",
   "yahoo": "VLUE.AX",
+  "theme": "Developed MSCI  Large/Mid (Unhedged)",
   "long": "",
   "short": "",
   "mcap": 340982216.24,
-  "exp": 0.004,
-  "yield": null
+  "exp": 0.004
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Global ETFs",
-  "theme": "World equities ex-Aus",
   "ticker": "WXOZ",
   "yahoo": "WXOZ.AX",
+  "theme": "World equities ex-Aus",
   "long": "",
   "short": "",
   "mcap": 465536700.96,
-  "exp": 0.0007,
-  "yield": null
+  "exp": 0.0007
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Global ETFs",
-  "theme": "Global Div",
   "ticker": "WDIV",
   "yahoo": "WDIV.AX",
+  "theme": "Global Div",
   "long": "",
   "short": "",
   "mcap": 305804568.81,
-  "exp": 0.0035,
-  "yield": null
+  "exp": 0.0035
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Global ETFs",
-  "theme": "DJRE",
   "ticker": "DJRE",
   "yahoo": "DJRE.AX",
+  "theme": "DJRE",
   "long": "",
   "short": "",
   "mcap": 453859956.4,
-  "exp": 0.002,
-  "yield": null
+  "exp": 0.002
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Global ETFs",
-  "theme": "World REIT",
   "ticker": "REIT",
   "yahoo": "REIT.AX",
+  "theme": "World REIT",
   "long": "",
   "short": "",
   "mcap": 533342587.87,
-  "exp": 0.002,
-  "yield": null
+  "exp": 0.002
  },
  {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "Hang Seng Index",
-  "ticker": "2800",
-  "yahoo": "2800.HK",
-  "long": "",
-  "short": "7300",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "Hang Seng TECH Index",
-  "ticker": "3033",
-  "yahoo": "3033.HK",
-  "long": "7226",
-  "short": "7552",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "Hang Seng China Enterprise Index",
-  "ticker": "2828",
-  "yahoo": "2828.HK",
-  "long": "7288",
-  "short": "7588",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "CSI 300 Index",
-  "ticker": "2846",
-  "yahoo": "2846.HK",
-  "long": "7233",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "ChiNext Index",
-  "ticker": "3147",
-  "yahoo": "3147.HK",
-  "long": "7234",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "China Global Leader",
-  "ticker": "3050",
-  "yahoo": "3050.HK",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "China Litter Giant",
-  "ticker": "2815",
-  "yahoo": "2815.HK",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "Nikkei 225 Index",
-  "ticker": "3153",
-  "yahoo": "3153.HK",
-  "long": "7262",
-  "short": "7515",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "Asia Semi",
-  "ticker": "3119",
-  "yahoo": "3119.HK",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "Saudi Arabia Index",
-  "ticker": "2830",
-  "yahoo": "2830.HK",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "Japan Global Leader",
-  "ticker": "3150",
-  "yahoo": "3150.HK",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "China Semi",
-  "ticker": "9191",
-  "yahoo": "9191.HK",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "Taiwan Semi",
-  "ticker": "3076",
-  "yahoo": "3076.HK",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "China Robot & AI",
-  "ticker": "9807",
-  "yahoo": "9807.HK",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "China Cloud Computing",
-  "ticker": "9826",
-  "yahoo": "9826.HK",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "China EV & Battery",
-  "ticker": "9845",
-  "yahoo": "9845.HK",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "China Clean Energy",
-  "ticker": "9809",
-  "yahoo": "9809.HK",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "China Biotech",
-  "ticker": "9820",
-  "yahoo": "9820.HK",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "China Medtech",
-  "ticker": "2841",
-  "yahoo": "2841.HK",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "China Consumer",
-  "ticker": "9806",
-  "yahoo": "9806.HK",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "China USD Property Bond",
-  "ticker": "9001",
-  "yahoo": "9001.HK",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "DCE Iron Ore Future Index",
-  "ticker": "9047",
-  "yahoo": "9047.HK",
-  "long": "",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "Samsung (Korea listed)",
-  "ticker": "005930",
-  "yahoo": "005930.KS",
-  "long": "7747",
-  "short": "7347",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
-  "group": "HK \u00b7 CN & Asia Themes",
-  "theme": "SK hynix (Korea listed)",
-  "ticker": "000660",
-  "yahoo": "000660.KS",
-  "long": "7709",
-  "short": "",
-  "mcap": null,
-  "exp": null,
-  "yield": null
- },
- {
+  "tab": "macro",
   "group": "HOSTPLUS Monthly Div ETFs",
-  "theme": "3 - 6 mth Bank Bill",
   "ticker": "BILL",
   "yahoo": "BILL.AX",
+  "theme": "3 - 6 mth Bank Bill",
   "long": "",
   "short": "",
   "mcap": 817353119.5,
-  "exp": null,
   "yield": 0.0431
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Monthly Div ETFs",
-  "theme": "AUS/UK/France Bank Bond",
   "ticker": "SUBD",
   "yahoo": "SUBD.AX",
+  "theme": "AUS/UK/France Bank Bond",
   "long": "",
   "short": "",
   "mcap": 2472506815.9,
-  "exp": null,
   "yield": 0.0587
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Monthly Div ETFs",
-  "theme": "US Private Credit",
   "ticker": "LEND",
   "yahoo": "LEND.AX",
+  "theme": "US Private Credit",
   "long": "",
   "short": "",
   "mcap": 146707861.25,
-  "exp": null,
   "yield": 0.0998
  },
  {
+  "tab": "macro",
   "group": "HOSTPLUS Monthly Div ETFs",
-  "theme": "AUS bank Senior Floating Rate Bond",
   "ticker": "QPON",
   "yahoo": "QPON.AX",
+  "theme": "AUS bank Senior Floating Rate Bond",
   "long": "",
   "short": "",
   "mcap": 1711909390,
-  "exp": null,
   "yield": 0.0429
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "2800",
+  "yahoo": "2800.HK",
+  "theme": "Hang Seng Index",
+  "long": "",
+  "short": "7300"
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "2828",
+  "yahoo": "2828.HK",
+  "theme": "Hang Seng China Enterprise Index",
+  "long": "7288",
+  "short": "7588"
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "2846",
+  "yahoo": "2846.HK",
+  "theme": "CSI 300 Index",
+  "long": "7233",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "3147",
+  "yahoo": "3147.HK",
+  "theme": "ChiNext Index",
+  "long": "7234",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "3153",
+  "yahoo": "3153.HK",
+  "theme": "Nikkei 225 Index",
+  "long": "7262",
+  "short": "7515"
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "3033",
+  "yahoo": "3033.HK",
+  "theme": "Hang Seng TECH Index",
+  "long": "7226",
+  "short": "7552"
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "9807",
+  "yahoo": "9807.HK",
+  "theme": "China Robot & AI",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "9826",
+  "yahoo": "9826.HK",
+  "theme": "China Cloud Computing",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "9191",
+  "yahoo": "9191.HK",
+  "theme": "China Semi",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "3119",
+  "yahoo": "3119.HK",
+  "theme": "Asia Semi",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "3076",
+  "yahoo": "3076.HK",
+  "theme": "Taiwan Semi",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "9845",
+  "yahoo": "9845.HK",
+  "theme": "China EV & Battery",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "9809",
+  "yahoo": "9809.HK",
+  "theme": "China Clean Energy",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "9820",
+  "yahoo": "9820.HK",
+  "theme": "China Biotech",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "2841",
+  "yahoo": "2841.HK",
+  "theme": "China Medtech",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "9806",
+  "yahoo": "9806.HK",
+  "theme": "China Consumer",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "3050",
+  "yahoo": "3050.HK",
+  "theme": "China Global Leader",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "2815",
+  "yahoo": "2815.HK",
+  "theme": "China Litter Giant",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "3150",
+  "yahoo": "3150.HK",
+  "theme": "Japan Global Leader",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "005930",
+  "yahoo": "005930.KS",
+  "theme": "Samsung (Korea listed)",
+  "long": "7747",
+  "short": "7347"
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "000660",
+  "yahoo": "000660.KS",
+  "theme": "SK hynix (Korea listed)",
+  "long": "7709",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "2830",
+  "yahoo": "2830.HK",
+  "theme": "Saudi Arabia Index",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "9001",
+  "yahoo": "9001.HK",
+  "theme": "China USD Property Bond",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "HK \u00b7 CN & Asia Themes",
+  "ticker": "9047",
+  "yahoo": "9047.HK",
+  "theme": "DCE Iron Ore Future Index",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "FANG",
+  "yahoo": "FANG.AX",
+  "theme": "FANG+",
+  "long": "",
+  "short": "",
+  "mcap": 1415180540.88,
+  "exp": 0.0035
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "FHNG",
+  "yahoo": "FHNG.AX",
+  "theme": "FNAG+ AUD Hedge",
+  "long": "",
+  "short": "",
+  "mcap": 49708365.56,
+  "exp": 0.0038
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "ITEK",
+  "yahoo": "ITEK.AX",
+  "theme": "Tech Innovation",
+  "long": "",
+  "short": "",
+  "mcap": 7522398.07,
+  "exp": 0.0061
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "HHIF",
+  "yahoo": "HHIF.AX",
+  "theme": "Hejaz High Inno Active ETF",
+  "long": "",
+  "short": "",
+  "mcap": 7325269.01,
+  "exp": 0.0155
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "SMHG",
+  "yahoo": "SMHG.AX",
+  "theme": "Global Semiconductor",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "SEMI",
+  "yahoo": "SEMI.AX",
+  "theme": "Semiconductor",
+  "long": "",
+  "short": "",
+  "mcap": 366679900.45,
+  "exp": 0.0045
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "QNTM",
+  "yahoo": "QNTM.AX",
+  "theme": "Quantum Computing",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "GXAI",
+  "yahoo": "GXAI.AX",
+  "theme": "AI",
+  "long": "",
+  "short": "",
+  "mcap": 129792542.74,
+  "exp": 0.0057
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "AINF",
+  "yahoo": "AINF.AX",
+  "theme": "AI Infra",
+  "long": "",
+  "short": "",
+  "mcap": 106990149.34,
+  "exp": 0.0035
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "ROBO",
+  "yahoo": "ROBO.AX",
+  "theme": "Robotics Tech",
+  "long": "",
+  "short": "",
+  "mcap": 244182339.12,
+  "exp": 0.0069
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "RBTZ",
+  "yahoo": "RBTZ.AX",
+  "theme": "Robotics + AI",
+  "long": "",
+  "short": "",
+  "mcap": 305496211,
+  "exp": 0.0057
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "HACK",
+  "yahoo": "HACK.AX",
+  "theme": "CyberSecurity",
+  "long": "",
+  "short": "",
+  "mcap": 1338713940,
+  "exp": 0.0067
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "DRIV",
+  "yahoo": "DRIV.AX",
+  "theme": "Future Vehicles",
+  "long": "",
+  "short": "",
+  "mcap": 11509856,
+  "exp": 0.0067
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "ESPO",
+  "yahoo": "ESPO.AX",
+  "theme": "Video Game",
+  "long": "",
+  "short": "",
+  "mcap": 105024459.35,
+  "exp": 0.0055
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "DTEC",
+  "yahoo": "DTEC.AX",
+  "theme": "Defence Tech",
+  "long": "",
+  "short": "",
+  "mcap": 86577908.74,
+  "exp": 0.005
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "DFND",
+  "yahoo": "DFND.AX",
+  "theme": "Global Defence",
+  "long": "",
+  "short": "",
+  "mcap": 217673549.04,
+  "exp": 0.0065
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "RESM",
+  "yahoo": "RESM.AX",
+  "theme": "Rare Earth & Strategic Metals ex-China",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "GMTL",
+  "yahoo": "GMTL.AX",
+  "theme": "Green Metals",
+  "long": "",
+  "short": "",
+  "mcap": 3990582.42,
+  "exp": 0.0069
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "XMET",
+  "yahoo": "XMET.AX",
+  "theme": "Energy Transition Metals",
+  "long": "",
+  "short": "",
+  "mcap": 30483408,
+  "exp": 0.0069
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "WIRE",
+  "yahoo": "WIRE.AX",
+  "theme": "Copper Minner",
+  "long": "",
+  "short": "",
+  "mcap": 298572642.78,
+  "exp": 0.0065
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "ATOM",
+  "yahoo": "ATOM.AX",
+  "theme": "Nuclear",
+  "long": "",
+  "short": "",
+  "mcap": 68130781.55,
+  "exp": 0.0069
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "URAN",
+  "yahoo": "URAN.AX",
+  "theme": "Uranium & Energy",
+  "long": "",
+  "short": "",
+  "mcap": 9321406.43,
+  "exp": 0.0059
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "URNM",
+  "yahoo": "URNM.AX",
+  "theme": "Uranium Mining",
+  "long": "",
+  "short": "",
+  "mcap": 203391549,
+  "exp": 0.0069
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "HGEN",
+  "yahoo": "HGEN.AX",
+  "theme": "Hydrogen",
+  "long": "",
+  "short": "",
+  "mcap": 30074177.52,
+  "exp": 0.0069
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "CLNE",
+  "yahoo": "CLNE.AX",
+  "theme": "Clean Energy",
+  "long": "",
+  "short": "",
+  "mcap": 63316679.21,
+  "exp": 0.0065
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "MCCL",
+  "yahoo": "MCCL.AX",
+  "theme": "Climate Change",
+  "long": "",
+  "short": "",
+  "mcap": 127752118.055,
+  "exp": 0.009
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "VBLD",
+  "yahoo": "VBLD.AX",
+  "theme": "Global Infra",
+  "long": "",
+  "short": "",
+  "mcap": 518000000,
+  "exp": 0.0047
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "IFRA",
+  "yahoo": "IFRA.AX",
+  "theme": "FTSE Global Infra",
+  "long": "",
+  "short": "",
+  "mcap": 1538669688.22,
+  "exp": 0.002
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "GLIN",
+  "yahoo": "GLIN.AX",
+  "theme": "FTSE Global Infra",
+  "long": "",
+  "short": "",
+  "mcap": 1299349766,
+  "exp": 0.0015
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "MICH",
+  "yahoo": "MICH.AX",
+  "theme": "Megallan Infra",
+  "long": "",
+  "short": "",
+  "mcap": 521685787,
+  "exp": 0.0116
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "CRYP",
+  "yahoo": "CRYP.AX",
+  "theme": "Crypto Innovators",
+  "long": "",
+  "short": "",
+  "mcap": 208486530,
+  "exp": 0.0067
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "VBTC",
+  "yahoo": "VBTC.AX",
+  "theme": "BTC",
+  "long": "",
+  "short": "",
+  "mcap": 344910572.87,
+  "exp": 0.0049
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "QETH",
+  "yahoo": "QETH.AX",
+  "theme": "Etherrum",
+  "long": "",
+  "short": "",
+  "mcap": 26347398,
+  "exp": 0.0045
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "FUEL",
+  "yahoo": "FUEL.AX",
+  "theme": "Fuel & Gas Co",
+  "long": "",
+  "short": "",
+  "mcap": 128245297,
+  "exp": 0.0057
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "MTUM",
+  "yahoo": "MTUM.AX",
+  "theme": "AUS Momentum",
+  "long": "",
+  "short": "",
+  "mcap": 124350142,
+  "exp": 0.0035
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "FOOD",
+  "yahoo": "FOOD.AX",
+  "theme": "Ariculture",
+  "long": "",
+  "short": "",
+  "mcap": 61509280,
+  "exp": 0.0057
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "QAU",
+  "yahoo": "QAU.AX",
+  "theme": "",
+  "long": "",
+  "short": "",
+  "mcap": 1273409185,
+  "exp": 0.0059
+ },
+ {
+  "tab": "themes",
+  "group": "AUS Themes",
+  "ticker": "OOO",
+  "yahoo": "OOO.AX",
+  "theme": "Oil Currency Hedged",
+  "long": "",
+  "short": "",
+  "mcap": 91331889,
+  "exp": 0.0129
+ },
+ {
+  "tab": "themes",
+  "group": "Japan Themes",
+  "ticker": "2854",
+  "yahoo": "2854.T",
+  "theme": "Japan Tech Top 20",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "Japan Themes",
+  "ticker": "2626",
+  "yahoo": "2626.T",
+  "theme": "Digital Innovation Japan",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "Japan Themes",
+  "ticker": "2638",
+  "yahoo": "2638.T",
+  "theme": "Japan Robotics & AI",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "Japan Themes",
+  "ticker": "2627",
+  "yahoo": "2627.T",
+  "theme": "E-Commerce Japan",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "Japan Themes",
+  "ticker": "2836",
+  "yahoo": "2836.T",
+  "theme": "Japan Fintech",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "Japan Themes",
+  "ticker": "2640",
+  "yahoo": "2640.T",
+  "theme": "Japan Games & Animation",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "Japan Themes",
+  "ticker": "2637",
+  "yahoo": "2637.T",
+  "theme": "CleanTech Japan",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "Japan Themes",
+  "ticker": "2847",
+  "yahoo": "2847.T",
+  "theme": "Japan New Growth Infrastructure",
+  "long": "",
+  "short": ""
+ },
+ {
+  "tab": "themes",
+  "group": "Japan Themes",
+  "ticker": "2567",
+  "yahoo": "2567.T",
+  "theme": "Japan ETF (name pending)",
+  "long": "",
+  "short": ""
  }
 ]
